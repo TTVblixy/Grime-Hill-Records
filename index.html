@@ -18,6 +18,13 @@
                 <li><a href="events.html">Events</a></li>
                 <li><a href="gallery.html">Media</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="/admin/" style="display:none;" id="adminLink">Admin</a></li>
+                <script>
+  if (localStorage.getItem("ghr_admin") === "OCD") {
+    document.getElementById("adminLink").style.display = "inline";
+  }
+</script>
+
             </ul>
         </nav>
     </header>
