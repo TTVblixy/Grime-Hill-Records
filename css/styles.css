@@ -1,1 +1,10 @@
-/* CSS styling will go here */
+body {
+    background-image: url("../img/gutter-hill-records-logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0a0a0a; /* dark fallback */
+    color: white;
+    font-family: sans-serif;
+}
